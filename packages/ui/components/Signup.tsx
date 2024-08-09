@@ -1,3 +1,4 @@
+'use client'
 import React, { useState } from 'react';
 
 const Signup = () => {
@@ -8,14 +9,14 @@ const Signup = () => {
     confirmPassword: '',
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e: any) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
     // Add signup logic here
     console.log('Form submitted:', formData);
