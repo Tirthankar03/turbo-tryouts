@@ -7,6 +7,6 @@
       "@repo/ui/*": ["./components/*"]
     }
   },
-  "include": ["src", "components",  "index.tsx", "lib"],
+  "include": ["src", "components",  "index.tsx", "lib", "components/index.tsx"],
   "exclude": ["node_modules", "dist"]
 }
